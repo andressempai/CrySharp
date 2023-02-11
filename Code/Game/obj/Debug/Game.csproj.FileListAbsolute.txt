@@ -1,0 +1,6 @@
+D:\Projects\CryEngine\CrySharp\bin\Game.dll
+D:\Projects\CryEngine\CrySharp\bin\Game.pdb
+D:\Projects\CryEngine\CrySharp\Code\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+D:\Projects\CryEngine\CrySharp\Code\Game\obj\Debug\Game.dll
+D:\Projects\CryEngine\CrySharp\Code\Game\obj\Debug\Game.pdb
+D:\Projects\CryEngine\CrySharp\Code\Game\obj\Debug\Game.csproj.AssemblyReference.cache

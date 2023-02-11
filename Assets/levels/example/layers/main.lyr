@@ -1,0 +1,36 @@
+<ObjectLayer>
+ <Layer Name="Main" FullName="Main" GUID="1e2c9967-0f2e-0199-df9a-1531ebe4ab8e" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1675872694">
+  <LayerObjects>
+   <Object Type="EmptyEntity" Layer="Main" LayerGUID="1e2c9967-0f2e-0199-df9a-1531ebe4ab8e" Id="e6b4f2b2-c1b6-d7d3-56ef-30ee2977e71e" Name="Entity-1" Pos="512,516,33.75" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="2fedcb02-c173-d867-bfee-a9fe4af8f8b1" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="0.60000002"/>
+        <element element="0.60000002"/>
+        <element element="1.4"/>
+       </scale>
+      </Transform>
+      <properties Type="Render" FilePath="%engine%/engineassets/objects/primitive_cylinder.cgf" Material="%ENGINE%/EngineAssets/Objects/editorprimitive">
+       <IEditorEntityComponent />
+       <Render ShadowSpec="Low" IgnoreVisArea="false" IgnoreTerrainLayerBlend="false" IgnoreDecalBlend="false" ViewDistRatio="100" LODDistance="100" GIMode="None"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+     <Component CryXmlVersion="2" TypeGUID="75ea47ce-2789-4235-bc41-fa64a32aca11" TypeName="PhysicComponent" GUID="dad0a23f-6bc7-1702-85bd-e5246bff4aff" Name="" UserAdded="true">
+      <properties CanUseCapsule="true" Radius="0.60000002" Height="1.4" GroundContactEpsilon="0.0040000002" Mass="81" AirResistance="0.2" AirControl="0.72500002"/>
+     </Component>
+    </Components>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>
